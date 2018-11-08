@@ -2,10 +2,6 @@
   "build": {
     "content": [
       {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -15,32 +11,37 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
+        ],
+        "files": [
+          "**/*.md",
+          "**/*.yml"
         ]
       }
     ],
+    "dest": "winncancelbuildtest0226",
+    "externalReference": [],
+    "fileMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/winncancelbuildtest0226/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "is_retired": true
+    },
+    "markdownEngineName": "markdig",
+    "overwrite": [],
     "resource": [
       {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**"
+        ],
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "/winncancelbuildtest0226/breadcrumb/toc.json",
-      "extendBreadcrumb": true
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "winncancelbuildtest0226",
-    "markdownEngineName": "markdig"
+    "template": []
   }
 }
