@@ -1,43 +1,43 @@
 {
-  "docsets_to_publish": [
-    {
-      "docset_name": "winncancelbuildtest0226",
-      "build_source_folder": "winncancelbuildtest0226",
-      "build_output_subfolder": "winncancelbuildtest0226",
-      "locale": "fr-be",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    }
-  ],
-  "notification_subscribers": [],
+  "branch_target_mapping": {},
   "branches_to_filter": [
     "live-sxs",
     "master-sxs"
   ],
   "continue_with_document_error": true,
-  "skip_source_output_uploading": false,
-  "need_preview_pull_request": false,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
-      "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.fr-be",
       "branch": "master",
-      "branch_mapping": {}
+      "branch_mapping": {},
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft.fr-be"
     },
     {
-      "path_to_root": "_repo.en-us",
-      "url": "https://github.com/MicrosoftDocs/winncancelbuildtest0226",
       "branch": "live",
       "branch_mapping": {
         "live": "live",
         "master": "master"
-      }
+      },
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/MicrosoftDocs/winncancelbuildtest0226"
     }
   ],
-  "branch_target_mapping": {},
-  "need_generate_pdf_url_template": false
+  "docsets_to_publish": [
+    {
+      "build_entry_point": "docs",
+      "build_output_subfolder": "winncancelbuildtest0226",
+      "build_source_folder": "winncancelbuildtest0226",
+      "docset_name": "winncancelbuildtest0226",
+      "locale": "fr-be",
+      "moniker_ranges": [],
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "template_folder": "_themes"
+    }
+  ],
+  "need_generate_pdf_url_template": false,
+  "need_preview_pull_request": false,
+  "notification_subscribers": [],
+  "skip_source_output_uploading": false
 }
